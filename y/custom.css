@@ -13,3 +13,8 @@
 .text-dark-blue {
   color: #041c3b;
 }
+
+.topnav a:hover {
+  border-bottom: 3px solid #f08865;
+  font-weight: 600;
+}
