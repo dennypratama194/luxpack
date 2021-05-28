@@ -19,24 +19,6 @@
   font-weight: 600;
 }
 
-.product {
-  width: 100%;
-  color: #041c3b;
-  margin: auto;
-  height: 100%;
-  background-color: gray;
-  border-radius: 16px;
-}
-
-.product :hover {
-  width: 100%;
-  color: white;
-  margin: auto;
-  height: 100%;
-  background-color: #041c3b;
-  border-radius: 16px;
-}
-
-.border-lg {
-  border-radius: 2rem !important;
+.max-h-36 {
+  max-height: 36rem;
 }
