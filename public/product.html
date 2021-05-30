@@ -50,143 +50,161 @@
             <h1 class="text-4xl font-bold text-white">Product Catalog</h1>
         </div>
     </section>
-    <section class="container m-auto my-16 flex flex-row">
-        <div class="w-1/4 bg-gray-200 p-8 flex flex-col rounded-3xl max-h-36">
+    <section class="container m-auto my-16 flex lg:flex-row flex-col">
+        <div class="w-full flex flex-row px-8 md:hidden lg:hidden">
+            <div class="w-1/2">
+                <p class="text-lg font-semibold text-dark-blue">Product Categories</p>
+            </div>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Dropper</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#home">Home</a>
+                  <a href="#about">About</a>
+                  <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="w-1/4 bg-gray-200 p-8 lg:flex lg:flex-col rounded-3xl max-h-36 hidden md:block lg:block">
             <h2 class="text-xl font-bold text-dark-blue mb-4">Product Categories</h2>
-            <button class="my-3 text-lg text-left focus:outline-none focus-visible:text-dark-blue focus-visible:font-bold">
+            <button class="py-3 text-lg text-left focus:outline-none">
                 Dropper
             </button>
-            <button class="my-3 text-lg text-left focus:outline-none">
+            <button class="py-3 text-lg text-left focus:outline-none">
                 Pump
             </button>
-            <button class="my-3 text-lg text-left focus:outline-none">
+            <button class="py-3 text-lg text-left focus:outline-none">
                 Spray
             </button>
-            <button class="my-3 text-lg text-left focus:outline-none">
+            <button class="py-3 text-lg text-left focus:outline-none">
                 Tube
             </button>
-            <button class="my-3 text-lg text-left focus:outline-none">
+            <button class="py-3 text-lg text-left focus:outline-none">
                 Pump
             </button>
-            <button class="my-3 text-lg text-left focus:outline-none">
+            <button class="py-3 text-lg text-left focus:outline-none">
                 Roll-On
             </button>
-            <button class="my-3 text-lg text-left focus:outline-none">
+            <button class="py-3 text-lg text-left focus:outline-none">
                 Spray
             </button>
-            <button class="my-3 text-lg text-left focus:outline-none">
+            <button class="py-3 text-lg text-left focus:outline-none">
                 Toner
             </button>
-            <button class="my-3 text-lg text-left focus:outline-none">
+            <button class="py-3 text-lg text-left focus:outline-none">
                 Tube
             </button>
         </div>
-        <div class="w-3/4 pl-4">
+        <div class="lg:w-3/4 px-8 lg:pl-4">
             <div class="flex flex-wrap">
-                <div class="w-1/4 mb-4">
+                <div class="w-1/2 lg:w-1/4 mb-4">
                     <div class="w-11/12 max-w-xs text-dark-blue m-auto h-full bg-gray-200 hover:bg-gray-900 hover:text-white hover:shadow-2xl rounded-2xl md:rounded-3xl lg:rounded-3xl">
                         <img src="assets/Bottle2.png">
                         <p class="text-center p-2 md:p-4 lg:p-4 font-semibold">Airless</p>
                     </div>
                 </div>
-                <div class="w-1/4 mb-4">
+                <div class="w-1/2 lg:w-1/4 mb-4">
                     <div class="w-11/12 max-w-xs text-dark-blue m-auto h-full bg-gray-200 hover:bg-gray-900 hover:text-white hover:shadow-2xl rounded-2xl md:rounded-3xl lg:rounded-3xl">
                         <img src="assets/Bottle2.png">
                         <p class="text-center p-2 md:p-4 lg:p-4 font-semibold">Airless</p>
                     </div>
                 </div>
-                <div class="w-1/4 mb-4">
+                <div class="w-1/2 lg:w-1/4 mb-4">
                     <div class="w-11/12 max-w-xs text-dark-blue m-auto h-full bg-gray-200 hover:bg-gray-900 hover:text-white hover:shadow-2xl rounded-2xl md:rounded-3xl lg:rounded-3xl">
                         <img src="assets/Bottle2.png">
                         <p class="text-center p-2 md:p-4 lg:p-4 font-semibold">Airless</p>
                     </div>
                 </div>
-                <div class="w-1/4 mb-4">
+                <div class="w-1/2 lg:w-1/4 mb-4">
                     <div class="w-11/12 max-w-xs text-dark-blue m-auto h-full bg-gray-200 hover:bg-gray-900 hover:text-white hover:shadow-2xl rounded-2xl md:rounded-3xl lg:rounded-3xl">
                         <img src="assets/Bottle2.png">
                         <p class="text-center p-2 md:p-4 lg:p-4 font-semibold">Airless</p>
                     </div>
                 </div>
-                <div class="w-1/4 my-4">
+                <div class="w-1/2 lg:w-1/4 my-4">
                     <div class="w-11/12 max-w-xs text-dark-blue m-auto h-full bg-gray-200 hover:bg-gray-900 hover:text-white hover:shadow-2xl rounded-2xl md:rounded-3xl lg:rounded-3xl">
                         <img src="assets/Bottle2.png">
                         <p class="text-center p-2 md:p-4 lg:p-4 font-semibold">Airless</p>
                     </div>
                 </div>
-                <div class="w-1/4 my-4">
+                <div class="w-1/2 lg:w-1/4 my-4">
                     <div class="w-11/12 max-w-xs text-dark-blue m-auto h-full bg-gray-200 hover:bg-gray-900 hover:text-white hover:shadow-2xl rounded-2xl md:rounded-3xl lg:rounded-3xl">
                         <img src="assets/Bottle2.png">
                         <p class="text-center p-2 md:p-4 lg:p-4 font-semibold">Airless</p>
                     </div>
                 </div>
-                <div class="w-1/4 my-4">
+                <div class="w-1/2 lg:w-1/4 my-4">
                     <div class="w-11/12 max-w-xs text-dark-blue m-auto h-full bg-gray-200 hover:bg-gray-900 hover:text-white hover:shadow-2xl rounded-2xl md:rounded-3xl lg:rounded-3xl">
                         <img src="assets/Bottle2.png">
                         <p class="text-center p-2 md:p-4 lg:p-4 font-semibold">Airless</p>
                     </div>
                 </div>
-                <div class="w-1/4 my-4">
+                <div class="w-1/2 lg:w-1/4 my-4">
                     <div class="w-11/12 max-w-xs text-dark-blue m-auto h-full bg-gray-200 hover:bg-gray-900 hover:text-white hover:shadow-2xl rounded-2xl md:rounded-3xl lg:rounded-3xl">
                         <img src="assets/Bottle2.png">
                         <p class="text-center p-2 md:p-4 lg:p-4 font-semibold">Airless</p>
                     </div>
                 </div>
-                <div class="w-1/4 my-4">
+                <div class="w-1/2 lg:w-1/4 my-4">
                     <div class="w-11/12 max-w-xs text-dark-blue m-auto h-full bg-gray-200 hover:bg-gray-900 hover:text-white hover:shadow-2xl rounded-2xl md:rounded-3xl lg:rounded-3xl">
                         <img src="assets/Bottle2.png">
                         <p class="text-center p-2 md:p-4 lg:p-4 font-semibold">Airless</p>
                     </div>
                 </div>
-                <div class="w-1/4 my-4">
+                <div class="w-1/2 lg:w-1/4 my-4">
                     <div class="w-11/12 max-w-xs text-dark-blue m-auto h-full bg-gray-200 hover:bg-gray-900 hover:text-white hover:shadow-2xl rounded-2xl md:rounded-3xl lg:rounded-3xl">
                         <img src="assets/Bottle2.png">
                         <p class="text-center p-2 md:p-4 lg:p-4 font-semibold">Airless</p>
                     </div>
                 </div>
-                <div class="w-1/4 my-4">
+                <div class="w-1/2 lg:w-1/4 my-4">
                     <div class="w-11/12 max-w-xs text-dark-blue m-auto h-full bg-gray-200 hover:bg-gray-900 hover:text-white hover:shadow-2xl rounded-2xl md:rounded-3xl lg:rounded-3xl">
                         <img src="assets/Bottle2.png">
                         <p class="text-center p-2 md:p-4 lg:p-4 font-semibold">Airless</p>
                     </div>
                 </div>
-                <div class="w-1/4 my-4">
+                <div class="w-1/2 lg:w-1/4 my-4">
                     <div class="w-11/12 max-w-xs text-dark-blue m-auto h-full bg-gray-200 hover:bg-gray-900 hover:text-white hover:shadow-2xl rounded-2xl md:rounded-3xl lg:rounded-3xl">
                         <img src="assets/Bottle2.png">
                         <p class="text-center p-2 md:p-4 lg:p-4 font-semibold">Airless</p>
                     </div>
                 </div>
-                <div class="w-1/4 my-4">
+                <div class="w-1/2 lg:w-1/4 my-4">
                     <div class="w-11/12 max-w-xs text-dark-blue m-auto h-full bg-gray-200 hover:bg-gray-900 hover:text-white hover:shadow-2xl rounded-2xl md:rounded-3xl lg:rounded-3xl">
                         <img src="assets/Bottle2.png">
                         <p class="text-center p-2 md:p-4 lg:p-4 font-semibold">Airless</p>
                     </div>
                 </div>
-                <div class="w-1/4 my-4">
+                <div class="w-1/2 lg:w-1/4 my-4">
                     <div class="w-11/12 max-w-xs text-dark-blue m-auto h-full bg-gray-200 hover:bg-gray-900 hover:text-white hover:shadow-2xl rounded-2xl md:rounded-3xl lg:rounded-3xl">
                         <img src="assets/Bottle2.png">
                         <p class="text-center p-2 md:p-4 lg:p-4 font-semibold">Airless</p>
                     </div>
                 </div>
-                <div class="w-1/4 my-4">
+                <div class="w-1/2 lg:w-1/4 my-4">
                     <div class="w-11/12 max-w-xs text-dark-blue m-auto h-full bg-gray-200 hover:bg-gray-900 hover:text-white hover:shadow-2xl rounded-2xl md:rounded-3xl lg:rounded-3xl">
                         <img src="assets/Bottle2.png">
                         <p class="text-center p-2 md:p-4 lg:p-4 font-semibold">Airless</p>
                     </div>
                 </div>
-                <div class="w-1/4 my-4">
+                <div class="w-1/2 lg:w-1/4 my-4">
                     <div class="w-11/12 max-w-xs text-dark-blue m-auto h-full bg-gray-200 hover:bg-gray-900 hover:text-white hover:shadow-2xl rounded-2xl md:rounded-3xl lg:rounded-3xl">
                         <img src="assets/Bottle2.png">
                         <p class="text-center p-2 md:p-4 lg:p-4 font-semibold">Airless</p>
                     </div>
                 </div>
-                <div class="w-1/4 my-4">
+                <div class="w-1/2 lg:w-1/4 my-4">
                     <div class="w-11/12 max-w-xs text-dark-blue m-auto h-full bg-gray-200 hover:bg-gray-900 hover:text-white hover:shadow-2xl rounded-2xl md:rounded-3xl lg:rounded-3xl">
                         <img src="assets/Bottle2.png">
                         <p class="text-center p-2 md:p-4 lg:p-4 font-semibold">Airless</p>
                     </div>
                 </div>
             </div>
-    </section>
+        </section>
+        <div class="container m-auto text-center mb-16">
+            <button class="text-white bg-dark-blue w-8 h-8 rounded-full mx-4 font-bold focus:outline-none">1</button>
+            <button class="text-dark-blue mx-4 font-semibold focus:outline-none">2</button>
+            <button class="text-dark-blue mx-4 font-semibold focus:outline-none">3</button>
+        </div>
     <div class="bg-dark-blue h-2"></div>
     <section class="flex flex-col lg:flex-row">
         <div class="lg:w-1/2 items-center text-center p-8 lg:p-16 self-center">
@@ -235,6 +253,27 @@
             </div>
         </div>
     </section>
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        </script>
     <script src="./js/main.js"></script>
     <script src="./js/header.js"></script>
 </body>
