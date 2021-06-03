@@ -6,6 +6,12 @@
   background-color: #f08865;
 }
 
+.border-orange {
+  border-bottom: 3px solid #f08865;
+  max-width: 30%;
+  font-weight: 700;
+}
+
 .bg-dark-blue {
   background-color: #041c3b;
 }
